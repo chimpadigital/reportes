@@ -4307,5 +4307,6 @@ i.fa.fa-th-large {font-size: 44px;color: #fff;}
 form.contatForm {margin: 0 22px;}
 .texto {margin-top: 7.5em;}
 .altura-blog{height: 600px}
-.bottom{position: absolute;bottom: 17px;left: 50%;}
+.bottom{position: absolute;bottom: -40px;left: 50%;}
 .v-middle{height: 69vh;}
+.page-title{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
