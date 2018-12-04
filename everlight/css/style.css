@@ -1207,11 +1207,11 @@ body.side-panel-static #wrapper .container{max-width:1210px;padding:0 35px;width
 .infinite-scroll-message p,
 #showMore p{margin:0;}
 .portfolio-item,
-.grid-item{width:100%;float:left;height:auto;cursor:pointer;padding:0 0 20px 0;}
+.grid-item{width:100%;float:left;height:390px!important;cursor:pointer;padding:0 0 20px 0;overflow: hidden;}
 .portfolio-item .portfolio-item-wrap,
 .portfolio-item .grid-item-wrap,
 .grid-item .portfolio-item-wrap,
-.grid-item .grid-item-wrap{position:relative;overflow:hidden;}
+.grid-item .grid-item-wrap{position:relative;overflow:hidden;height: 390px;}
 .portfolio-item .portfolio-item-wrap > a,
 .portfolio-item .grid-item-wrap > a,
 .grid-item .portfolio-item-wrap > a,
