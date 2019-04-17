@@ -1,0 +1,31 @@
+[data-pie-id] > *:nth-child(7n+1), [data-bar-id] > *:nth-child(7n+1), [data-line-id] > *:nth-child(7n+1) {
+  color: rgb(253, 195, 69); }
+[data-pie-id] > *:nth-child(7n+2), [data-bar-id] > *:nth-child(7n+2), [data-line-id] > *:nth-child(7n+2) {
+  color: #F0AF2B; }
+[data-pie-id] > *:nth-child(7n+3), [data-bar-id] > *:nth-child(7n+3), [data-line-id] > *:nth-child(7n+3) {
+  color: #E7A82A; }
+[data-pie-id] > *:nth-child(7n+4), [data-bar-id] > *:nth-child(7n+4), [data-line-id] > *:nth-child(7n+4) {
+  color: #DC9E28; }
+[data-pie-id] > *:nth-child(7n+5), [data-bar-id] > *:nth-child(7n+5), [data-line-id] > *:nth-child(7n+5) {
+  color: rgb(228, 164, 46); }
+[data-pie-id] > *:nth-child(7n+6), [data-bar-id] > *:nth-child(7n+6), [data-line-id] > *:nth-child(7n+6) {
+  color: rgb(199, 130, 12); }
+[data-pie-id] > *:nth-child(7n+7), [data-bar-id] > *:nth-child(7n+7), [data-line-id] > *:nth-child(7n+7) {
+  color:rgb(184, 122, 15); }
+
+#pie, #donut, #bar {
+  max-height: 450px; }
+
+
+svg {
+  width: 100%;
+  height: auto; }
+
+.tooltip {
+  margin-left: -5px;
+  border-radius: 3px;
+  padding: 5px; }
+
+ul[data-pie-id] {
+  list-style: none;
+  padding: 0px; }
