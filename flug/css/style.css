@@ -4296,6 +4296,39 @@ form.contatForm {margin: 0 22px;}
 .altura-blog{height: 600px}
 .bottom{position: absolute;bottom: 17px;left: 50%;}
 .vh-60{height: 60vh;}
-.shadow {
-    box-shadow: 0 4px 16px rgba(43, 43, 43, 0.30980392156862746)!important;
+.shadow {box-shadow: 0 4px 16px rgba(43, 43, 43, 0.30980392156862746)!important;}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
 }
