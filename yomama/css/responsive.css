@@ -166,7 +166,14 @@ section {padding: 80px 0!important;}
 .text-lg span span{font-size:40px !important;line-height:40px !important;}
 .profile-content .profile-bio{margin:20px auto;padding:20px;}
 }
-@media (max-width:479px){.container{width:100% !important;}
+@media (max-width:479px){
+    .page-title {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+    }    
+.container{width:100% !important;}
 .grid-articles:not(.post-carousel) .post-entry,
 .grid-articles:not(.post-carousel) .post-entry:first-child,
 .grid-articles.grid-articles-v2:not(.post-carousel) .post-entry:nth-child(1),
