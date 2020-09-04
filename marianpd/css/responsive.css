@@ -108,7 +108,9 @@ body.boxed-simple #wrapper{margin-top:40px;margin-bottom:40px;padding:20px;}
 .profile-content .profile-image .profile-name h3{font-size:70px;line-height:20px;margin-bottom:10px;text-align:center;}
 .profile-content .profile-bio{display:block;float:none;height:auto;margin:15px auto;padding:15px;width:750px;}
 }
-@media (max-width:767px){#wrapper{width:100% !important;}
+@media (max-width:767px){
+.counter {text-align:center;}   
+#wrapper{width:100% !important;}
 .col-md-1,
 .col-md-2,
 .col-md-3,
