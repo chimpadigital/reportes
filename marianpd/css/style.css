@@ -4323,3 +4323,28 @@ form.contatForm {margin: 0 22px;}
 .bottom{position: absolute;bottom: -40px;left: 50%;}
 .v-middle{height: 69vh;}
 .page-title{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+
+
+
+.img-destacadas{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.contenedor-interacciones{
+    display:flex;
+}
+#tabs-004{
+    position:relative;
+}
+.manito-chimpa{
+    width:80px;
+    height: auto;
+}
+@media (min-width:1024px){
+    .contenedor-destacadas{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
