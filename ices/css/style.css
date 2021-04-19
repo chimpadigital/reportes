@@ -4312,5 +4312,5 @@ form.contatForm {margin: 0 22px;}
 .v-middle{height: 69vh;}
 .page-title{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 .bg-info {background-color: #ffffff;}
-
+.inversion{display: flex;align-items: center;}
 .vs{color: #54ccd5!important;}
