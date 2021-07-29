@@ -2398,8 +2398,8 @@ span.rec-by{font-size:11px;position:relative;top:31px;}
 }
 .icon{margin-bottom:16px;}
 .icon-box{margin-bottom:50px;}
-.icon-box .icon{height:64px;position:absolute;width:64px;left: 16px;}
-.icon-box .icon i{font-size:34px;text-align:center;line-height:66px;border-radius:50%;}
+.icon-box .icon{height:50px;position:absolute;width:50px;left: 16px;}
+.icon-box .icon i{font-size: 30px;text-align: center;line-height: 50px;border-radius: 50%;}
 .icon-box .icon a,
 .icon-box .icon i{width:100%;height:100%;color:#ffffff;}
 .icon-box h3,
@@ -2422,7 +2422,7 @@ span.rec-by{font-size:11px;position:relative;top:31px;}
 .icon-box.medium > h3,
 .icon-box.medium > h4,
 .icon-box.medium > h5{margin:0 12px 10px 84px;}
-.icon-box.medium > p{margin:0 0 20px 84px;}
+.icon-box.medium > p{margin:0 0 20px 60px;}
 .icon-box.large .icon{height:86px;width:86px;}
 .icon-box.large .icon i{font-size:38px;line-height:87px;}
 .icon-box.large > h3,
@@ -2584,7 +2584,7 @@ span.rec-by{font-size:11px;position:relative;top:31px;}
 .carousel.carousel-loaded{opacity:1;visibility:visible;}
 .item-video{height:420px;}
 .counter{margin-bottom:14px;text-align: left;}
-.counter span{font-size:50px;line-height:40px;}
+.counter span{font-size:40px;line-height:40px;}
 .counter.small > span{font-size:32px !important;}
 .counter.medium > span{font-size:50px !important;}
 .counter.large > span{font-size:62px !important;}
@@ -2592,7 +2592,7 @@ span.rec-by{font-size:11px;position:relative;top:31px;}
 .icon-box.fancy.medium > .counter span{margin:0 12px 10px 80px;}
 .icon-box.effect:not(.center) > .counter span{margin:0 12px 10px 82px;}
 .icon-box.effect.large:not(.center) > .counter span{margin:0 12px 10px 107px;}
-.icon-box.effect.medium:not(.center) > .counter span{margin:0 12px 10px 82px;}
+.icon-box.effect.medium:not(.center) > .counter span{margin:0px 12px 10px 60px;}
 .icon-box.effect.small:not(.center) > .counter span{margin:0 12px 10px 58px;font-size:32px !important;}
 .countdown-container{display:table;margin:0 auto;}
 .countdown{color:#333;overflow:hidden;}
