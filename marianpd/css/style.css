@@ -1,4 +1,11 @@
 html{overflow-x:hidden;}
+.porcentaje{position: relative;}
+.porcentaje::after{content:'%';position: absolute;top: 5px;right: -40px;}
+.icon-box.effect.medium:not(.center) > .counter span.centavos {
+    position: relative;
+    margin: 0px 12px 10px 94px;
+}
+.centavos::before{content:'0,';position: absolute;top: 5px;left: -35px;}
 @media (max-width:479px){.container{padding:0 20px;}
 }
 body #wrapper{padding:0;margin:0;overflow-x:hidden;}
