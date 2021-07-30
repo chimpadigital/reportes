@@ -1,6 +1,6 @@
 html{overflow-x:hidden;}
 .porcentaje{position: relative;}
-.porcentaje::after{content:'%';position: absolute;top: 5px;right: -40px;}
+.porcentaje::after{content:'%';position: absolute;top: 4px;right: -40px;}
 .icon-box.effect.medium:not(.center) > .counter span.centavos {
     position: relative;
     margin: 0px 12px 10px 94px;
