@@ -1,0 +1,8 @@
+# Activar el motor de reescritura
+RewriteEngine On
+
+# Reescribir solicitudes de CSS
+RewriteRule ^css/(.*)$ /instituo-macedo/css/$1 [L]
+
+# Reescribir solicitudes de JS
+RewriteRule ^js/(.*)$ /instituo-macedo/js/$1 [L]
